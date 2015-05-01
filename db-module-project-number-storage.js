@@ -36,7 +36,7 @@ var DB = (function() {
 			},
 
 			add: function(num) {
-				if (this.seek(num)) {
+				if (this.lookup(num)) {
 					console.log(num + ' has been added.');
 					db.push(num);
 					return true;
@@ -46,7 +46,7 @@ var DB = (function() {
 				}
 			},
 			del: function(num) {
-				if (!(this.seek(num))) {
+				if (!(this.lookup(num))) {
 					console.log(num + ' has been deleted.');
 					db.splice(db.indexOf(num), 1);
 				} else {
@@ -85,7 +85,7 @@ var DB = (function() {
 						};
 
 	var add = function(num) {
-							if (this.seek(num)) {
+							if (this.lookup(num)) {
 								console.log(num + ' has been added.');
 								db.push(num);
 								return true;
@@ -96,7 +96,7 @@ var DB = (function() {
 						};
 			
 	var	del = function(num) {
-							if (!(this.seek(num))) {
+							if (!(this.lookup(num))) {
 								console.log(num + ' has been deleted.');
 								db.splice(db.indexOf(num), 1);
 							} else {
