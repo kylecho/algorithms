@@ -1,2 +1,2 @@
-# Algorithms training
-This repository is to keep track of my algorithms learning.
+# Algorithms
+Here you can find my solution to algorithmic problems found from various sources, including [Codewars](http://codewars.com).
