@@ -23,7 +23,7 @@ var LinkedList = function(){
 };
 
 LinkedList.prototype.addToTail = function(value){
-  var newTail = new this.makeNode(value);
+  var newTail = this.makeNode(value);
   if (!this.head) {
     this.head = newTail;
   }
