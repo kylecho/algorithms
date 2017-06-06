@@ -14,5 +14,5 @@ class Dog extends Animal {
   }
 }
 
-let dog = new Dog('Ddolddoli')
+let dog = new Dog('Jindo')
 dog.speak()
