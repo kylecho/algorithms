@@ -17,7 +17,6 @@
  */
 
 const licenseKeyFormatting = (S, K) => {
-  let c = 0
   let charsCount = 0
   let res = ''
 
