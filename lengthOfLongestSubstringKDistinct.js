@@ -40,6 +40,7 @@ class QueueWithCounts {
   }
 }
 
+// TODO: handle edge case
 const lengthOfLongestSubstringKDistinct = (s, k) => {
   const q = new QueueWithCounts()
   let max = 0
